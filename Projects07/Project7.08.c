@@ -1,8 +1,7 @@
 #include <stdio.h>
 #include <ctype.h>
 
-int main()
-{
+int main() {
     int userHours, userMins, userTotalTime, dep1 = 480, dep2 = 583, dep3 = 679, dep4 = 767, dep5 = 840, dep6 = 945, dep7 = 1140, dep8 = 1305;
     char ch;
 
