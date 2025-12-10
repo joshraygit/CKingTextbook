@@ -2,20 +2,20 @@
 
 int main() {
     float expr1, expr2;
-    char operand;
+    char operator;
 
     printf("Enter an expression: ");
     scanf("%f", &expr1);
 
     for (;;) {
-        operand = getchar();
+        operator = getchar();
 
-        if (operand == '\n')
+        if (operator == '\n')
             break;
         
         scanf("%f", &expr2);
 
-        switch (operand) {
+        switch (operator) {
             case '+': expr1 += expr2; break;
             case '-': expr1 -= expr2; break;
             case '*': expr1 *= expr2; break;
